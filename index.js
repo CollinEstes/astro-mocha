@@ -1,10 +1,15 @@
 /**
 *
-* astro-mocha/index.js - ENTRYPOINT for astro-mocha
+* astro-mocha: astro-cli module that executes mocha test-runner
+*							 against a user's current working directory '/test' folder
+*
+* AVAILABLE OPTIONS
+*	--chai: adds chai, expect, should, assert, and sinon-chai to the global
+*	--sinon: adds sinon to the global
+* --babel: adds a babel compiler to the mocha options
 *
 **/
 'use strict';
-var spawn = require('child_process').spawn;
 var buildArgs = require('./src/buildArgs');
 
 
