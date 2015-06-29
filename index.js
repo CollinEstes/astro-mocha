@@ -10,13 +10,16 @@
 *
 **/
 'use strict';
-var buildArgs = require('./src/buildArgs');
+var buildArgs = require('./src/buildArgs')
+	, path = require('path')
+	;
 
 
 module.exports = function (projectDir, options) {
 
-	var args = buildArgs(projectDir, options);
+	var args = buildArgs(projectDir, options)
+		, cmd = path.resolve('./node_modules/.bin/mocha');
 
 	// set up
-	return {cmd: 'mocha', args: args};
+	return {cmd: cmd, args: args};
 };
