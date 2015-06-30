@@ -11,7 +11,7 @@ myProject$ astro mocha
 
 ### Assumptions
 
-astro-mocha expects to find tests in '/test' directory from the context where the astro command is executed.  In the above example, astro-mocha will run all spec files with /myProject/test directory recursively.
+astro-mocha expects to find specs in '/test' directory from the context where the astro command is executed.  In the above example, astro-mocha will run all spec files within /myProject/test directory recursively.
 
 
 ## Options
