@@ -2,6 +2,18 @@
 ###[astro](https://www.npmjs.com/package/astro) module that provides [mocha](https://www.npmjs.com/package/mocha) test running
 
 
+## USAGE
+
+```
+$cd myProject
+myProject$ astro mocha
+```
+
+### Assumptions
+
+astro-mocha expects to find tests in '/test' directory from the context where the astro command is executed.  In the above example, astro-mocha will run all spec files with /myProject/test directory recursively.
+
+
 ## Options
 
 *Any 'global' options listed below are only global to the testing context, they do not impact your application beyond test running*

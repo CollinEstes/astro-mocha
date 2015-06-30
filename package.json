@@ -1,6 +1,6 @@
 {
   "name": "astro-mocha",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "astro module for running mocha tests",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "astro"
   ],
   "author": "Collin Estes",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CollinEstes/astro-mocha/issues"
   },
@@ -29,6 +29,5 @@
     "proxyquire": "^1.5.0",
     "sinon": "^1.15.3",
     "sinon-chai": "^2.8.0"
-  },
-  "devDependencies": {}
+  }
 }
