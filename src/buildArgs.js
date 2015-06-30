@@ -31,6 +31,9 @@ function buildArgs (projectDir, options) {
 			case 'sinon':
 				setupfiles.push(setupPath + 'sinon.js');
 				break;
+			case 'proxyquire':
+				setupfiles.push(setupPath + 'proxyquire.js');
+				break;
 			default:
 				break;
 		}
