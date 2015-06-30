@@ -1,5 +1,5 @@
 # astro-mocha
-### [astro](https://www.npmjs.com/package/astro) module that provides [mocha](https://www.npmjs.com/package/mocha) test running
+[astro](https://www.npmjs.com/package/astro) module that provides [mocha](https://www.npmjs.com/package/mocha) test running
 
 
 ## USAGE
