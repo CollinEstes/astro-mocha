@@ -1,24 +1,33 @@
 {
   "name": "astro-mocha",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "astro-cli module for running mocha tests",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive ./src/setup/*.js ./test/**/*.js",
     "test:watch": "mocha --recursive ./src/setup/*.js ./test/**/*.js -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CollinEstes/astro-mocha/"
+  },
   "keywords": [
-    "astro-cli",
-    "mocha",
-    "chai",
-    "sinon",
-    "proxyquire"
+    "build",
+    "asset",
+    "pipeline",
+    "node",
+    "astro"
   ],
   "author": "Collin Estes",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/CollinEstes/astro-mocha/issues"
+  },
+  "homepage": "https://github.com/CollinEstes/astro-mocha",
+  "dependencies": {
     "chai": "^3.0.0",
-    "lodash": "^3.9.3",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.3",
+    "sinon-chai": "^2.8.0"
   }
 }

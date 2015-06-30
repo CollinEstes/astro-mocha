@@ -5,7 +5,6 @@
 **/
 
 var buildArgs = require('../src/buildArgs');
-var _ = require('lodash');
 
 describe('buildArgs.js', function () {
 
