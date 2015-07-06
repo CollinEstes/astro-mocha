@@ -16,12 +16,14 @@ function buildArgs (projectDir, options) {
 		, setupPath  = path.join(path.dirname(fs.realpathSync(__filename)), './setup/');
 		;
 
- 	if (options.babel) {
- 		args = ['--compilers js:babel/register']
- 	}
+	if (options.babel) {
+		args = ['--compilers', 'js:babel/register'];
+	}
 
- 	// recursively search test directory
- 	args.push('--recursive');
+	// recursively search test directory
+	args.push('--recursive');
+	args.push('--ui');
+	args.push('bdd');
 
 	optionKeys.forEach(function (key) {
 		switch (key) {
