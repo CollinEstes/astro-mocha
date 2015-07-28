@@ -19,7 +19,7 @@ var buildArgs = require('./src/buildArgs')
 module.exports = function (projectDir, options) {
 
 	var args = buildArgs(projectDir, options)
-		, cmd = path.resolve(fs.realpathSync(__dirname), './node_modules/.bin/mocha');
+		, cmd = path.resolve(fs.realpathSync(__dirname), './node_modules/.bin/_mocha');
 
 	// set up
 	return {cmd: cmd, args: args};
