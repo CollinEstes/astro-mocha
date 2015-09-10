@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.12'
+deploy:
+  provider: npm
+  email: collin.j.estes@gmail.com
+  api_key:
+    secure: Xl6Is/S1dzNsUrCjl2LebpdjCFYgl7om7qFPylvojxjoMxjVlqHPCZtuOvvMPMNUyZ4hhtXW2te8BtBrEoHLUDd8ra5Fa4wo29LvydoUa8ptJ1HK04E3yNoCrPpDF3zf5b+W1pjn04tWdxBlcw46o230Rydh0VS5usxzGzZZD9TmMJEO29HQ1I+wdU8x0+0fjeZoeJTArSCTrH4lwAi798lUFskdOhjqqrXTABQLy83HFFqRUP2HnG3Tmnu43KVjtCNEvd/9hUTvOVwoak5C7dZKU7EcNQqt7JUsWhgHy+FR27GUUnDNImVVHt8zmNT6KP/z7lb34c4lZ6jMbv00+NTynbb7jb9z2bsvlPVrHtsovO+0sDDgrKBK/A+DvOw+K6CZqnogxWSZLZ/oXwCatRfFE3TJDVP8Nub5dIiQPd+uiEdCgA/la074ONuMHk3R5KL7hZO+cxcRWuN2UTLeNn7CTAsv0w0tA4xSBDAExizW75AxIjzhopxbCqxpQJ8eZRun3L8qeFc879FxR5K+vCt4SwTg/i7x1SURxKk3qD3eKb2HTYyEb9fdnEuA3r4mwYpeLDGProGoTFYdG+udn4fnrA15UL+Gmb8ZuZIPJLRfSLQpjgPHLF8uacQdE1zB9Zlg9v/LTOH1gO3++89vEFsrMmwAWC721SPvIqfGFqw=
+  on:
+    tags: true
+    repo: CollinEstes/astro-mocha
